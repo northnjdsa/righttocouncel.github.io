@@ -5,6 +5,7 @@ image = 'images/pic02.jpg'
 description = 'We are Fighting for Right to Counsel in Jersey City.'
 disableComments = true
 +++
+
 # We are Fighting for Right to Counsel in Jersey City
 
 We are in an eviction crisis. The pandemic has left millions at risk of losing their homes with rents reaching record highs and evictions exceeding pre-pandemic levels. 
