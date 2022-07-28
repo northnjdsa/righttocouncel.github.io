@@ -1,7 +1,7 @@
 +++
 title = 'Right to Counsel FAQs'
 slug = 'faq'
-image = 'images/rtcbg.jpeg'
+image = 'images/header-background.jpeg'
 date = "2022-07-23T11:00:00"
 description = 'Common questions about right to counsel.'
 disableComments = true
