@@ -26,6 +26,10 @@ h1 {
   #rtc-header {
     top: 0px; } }
 
+@media (max-width: 1680px) {
+  #rtc-header {
+    bottom: 64px; } }
+
 @media (max-width: 980px) {
   #rtc-header {
     bottom: 0px; }
