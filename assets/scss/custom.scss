@@ -23,6 +23,15 @@ h1 {
       background: url('/images/header-background.jpeg');
       background-size: cover;
     }
+      
+    .rtc-logo {
+      margin-bottom: 2em;
+    }
+
+    img .rtc-logo {
+      max-width: 125px;
+      max-height: 125px;
+    }
   
     @media (max-height: 550px) {
       #rtc-header {
@@ -43,10 +52,6 @@ h1 {
   
       img .rtc-logo {
         max-width: 75px;
-        max-height: 100px;
+        max-height: 75px;
       }
-    }
-  
-    .rtc-logo {
-      margin-bottom: 2em;
     }
