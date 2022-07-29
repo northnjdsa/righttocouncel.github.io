@@ -67,4 +67,87 @@ h1,
     max-width: 75px;
     max-height: 75px; } }
 
+/* Form styles */
+:root {
+  --form-background: #fff;
+  --form-control-color: #cd3a18;
+  --form-control-disabled: #959495; }
+
+#main .check_radio_field input[type=radio] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none !important;
+  /* Remove most all native input styles */
+  -moz-appearance: none !important;
+  appearance: none !important;
+  /* For iOS < 15 */
+  background-color: var(--form-background) !important;
+  /* Not removed via appearance */
+  margin: 0 !important;
+  font: inherit !important;
+  color: currentColor !important;
+  width: 1.15em !important;
+  height: 1.15em !important;
+  border: 0.15em solid currentColor !important;
+  border-radius: 50% !important;
+  transform: translateY(-0.075em) !important;
+  display: grid !important;
+  place-content: center !important; }
+
+#main .check_radio_field input[type=radio]::before {
+  content: "" !important;
+  width: 0.65em !important;
+  height: 0.65em !important;
+  border-radius: 50% !important;
+  transform: scale(0) !important;
+  transition: 120ms transform ease-in-out !important;
+  box-shadow: inset 1em 1em var(--form-control-color) !important;
+  /* Windows High Contrast Mode */
+  background-color: CanvasText !important; }
+
+#main .check_radio_field input[type=radio]:focus {
+  outline: 0 !important; }
+
+#main .check_radio_field input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none !important;
+  /* Remove most all native input styles */
+  appearance: none !important;
+  /* For iOS < 15 */
+  background-color: var(--form-background) !important;
+  /* Not removed via appearance */
+  margin: 0 !important;
+  font: inherit !important;
+  color: currentColor !important;
+  width: 1.15em !important;
+  height: 1.15em !important;
+  border: 0.15em solid currentColor !important;
+  border-radius: 0.15em !important;
+  transform: translateY(-0.075em) !important;
+  display: grid !important;
+  place-content: center !important; }
+
+#main .check_radio_field input[type="checkbox"]::before {
+  content: "" !important;
+  width: 0.65em !important;
+  height: 0.65em !important;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%) !important;
+  transform: scale(0) !important;
+  transform-origin: bottom left !important;
+  transition: 120ms transform ease-in-out !important;
+  box-shadow: inset 1em 1em var(--form-control-color) !important;
+  /* Windows High Contrast Mode */
+  background-color: CanvasTex !important; }
+
+#main .check_radio_field input[type="checkbox"]:checked::before,
+#main .check_radio_field input[type=radio]:checked::before {
+  transform: scale(1) !important; }
+
+#main .check_radio_field input[type="checkbox"]:focus {
+  outline: 0 !important; }
+
+#main .check_radio_field input[type="checkbox"]:disabled {
+  --form-control-color: var(--form-control-disabled)!important;
+  color: var(--form-control-disabled) !important;
+  cursor: not-allowed !important; }
+
 /*# sourceMappingURL=custom.css.map */
