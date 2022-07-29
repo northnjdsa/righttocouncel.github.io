@@ -73,7 +73,9 @@ h1,
   #rtc-header {
       bottom: 0px;
   }
+}
 
+@media (max-width: 400px) {
   .rtc-logo {
     max-width: 75px;
     max-height: 75px;
