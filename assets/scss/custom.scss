@@ -1,57 +1,63 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
 h1 {
-    font-size: 4.5em;
-  }
+  font-size: 4.5em;
+}
   
+#rtc-header {
+  color: #fff;
+  display: flex;
+  transition: transform 1s ease,opacity 1s ease;
+  background: rgba(255, 255, 255, 0.175);
+  line-height: 4rem;
+  margin: auto 0;
+  overflow: hidden;
+  padding: 0px 2rem 0 0;
+  position: absolute;
+  width: calc(100% - 4rem);
+  max-width: 72rem;
+  z-index: 2;
+  bottom: 86px;
+  top: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: url('/images/header-background.jpeg');
+  background-size: cover;
+}
+
+#intro h1, #header .logo {
+  font-family: 'Monument Extended', sans-serif;
+}
+  
+.rtc-logo {
+  margin-bottom: 2em;
+}
+
+img .rtc-logo {
+  max-width: 125px;
+  max-height: 125px;
+}
+
+@media (max-height: 550px) {
   #rtc-header {
-      color: #fff;
-      display: flex;
-      transition: transform 1s ease,opacity 1s ease;
-      background: rgba(255, 255, 255, 0.175);
-      line-height: 4rem;
-      margin: auto 0;
-      overflow: hidden;
-      padding: 0px 2rem 0 0;
-      position: absolute;
-      width: calc(100% - 4rem);
-      max-width: 72rem;
-      z-index: 2;
-      bottom: 86px;
-      top: 100px;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      background: url('/images/header-background.jpeg');
-      background-size: cover;
-    }
-      
-    .rtc-logo {
-      margin-bottom: 2em;
-    }
+      top: 0px;
+  }
+}
 
-    img .rtc-logo {
-      max-width: 125px;
-      max-height: 125px;
-    }
-  
-    @media (max-height: 550px) {
-      #rtc-header {
-          top: 0px;
-      }
-    }
+@media (max-width: 1680px) {
+  #rtc-header {
+      bottom: 64px;
+  }
+}
 
-    @media (max-width: 1680px) {
-      #rtc-header {
-          bottom: 64px;
-      }
-    }
-  
-    @media (max-width: 980px) {
-      #rtc-header {
-          bottom: 0px;
-      }
-  
-      img .rtc-logo {
-        max-width: 75px;
-        max-height: 75px;
-      }
-    }
+@media (max-width: 980px) {
+  #rtc-header {
+      bottom: 0px;
+  }
+
+  img .rtc-logo {
+    max-width: 75px;
+    max-height: 75px;
+  }
+}
