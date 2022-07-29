@@ -37,7 +37,8 @@ h1 {
   background-size: cover; }
 
 #intro h1, #header .logo {
-  font-family: 'Monument Extended', sans-serif; }
+  font-family: 'Monument Extended', sans-serif;
+  font-weight: 400; }
 
 .rtc-logo {
   margin-bottom: 2em; }
