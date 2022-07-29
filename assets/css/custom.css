@@ -12,7 +12,8 @@
   src: local("Monument Extended"), url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff") format("woff"); }
 
 /* Header styles */
-h1 {
+h1,
+#intro h1 {
   font-size: 4.5em; }
 
 #rtc-header {
@@ -36,7 +37,8 @@ h1 {
   background: url("/images/header-background.jpeg");
   background-size: cover; }
 
-#intro h1, #header .logo {
+#intro h1,
+#header .logo {
   font-family: 'Monument Extended', sans-serif;
   font-weight: 400; }
 
