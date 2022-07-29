@@ -43,9 +43,7 @@ h1,
   font-weight: 400; }
 
 .rtc-logo {
-  margin-bottom: 2em; }
-
-img.rtc-logo {
+  margin-bottom: 2em;
   max-width: 125px;
   max-height: 125px; }
 
@@ -63,7 +61,7 @@ img.rtc-logo {
     font-size: 2.5rem; }
   #rtc-header {
     bottom: 0px; }
-  img.rtc-logo {
+  .rtc-logo {
     max-width: 75px;
     max-height: 75px; } }
 
