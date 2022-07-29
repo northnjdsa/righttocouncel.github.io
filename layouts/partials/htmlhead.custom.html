@@ -1,2 +1,3 @@
+<link href="http://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet">
 {{ $style := resources.Get "scss/custom.scss" | resources.ExecuteAsTemplate "custom.scss" . | toCSS (dict "targetPath" "assets/css/custom.css" "enableSourceMap" true) }}
 <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
