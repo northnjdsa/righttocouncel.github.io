@@ -13,7 +13,8 @@
 }
 
 /* Header styles */ 
-h1 {
+h1, 
+#intro h1 {
   font-size: 4.5em;
 }
   
@@ -39,7 +40,8 @@ h1 {
   background-size: cover;
 }
 
-#intro h1, #header .logo {
+#intro h1, 
+#header .logo {
   font-family: 'Monument Extended', sans-serif;
   font-weight: 400;
 }
