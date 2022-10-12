@@ -40,6 +40,9 @@
 					<div id="main">
                         {{- partial "home-intro.html" . -}}
 
+
+                       <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/petition/rtcjc?format=js&source=widget'></script><div id='can-petition-area-rtcjc' style='width: 100%'><!-- this div is the target for our HTML insertion --></div> 
+
 						{{- if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
 						<!-- This is here to allow linking directly to the updates from the menu -->
                         <div id="updates" style="padding: 0; margin:0; border:0;"></div>
