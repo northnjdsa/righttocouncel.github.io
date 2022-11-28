@@ -3,7 +3,7 @@ title = 'The Right to Counsel for Tenants'
 author = 'Rory P'
 slug = 'right-to-counsel-for-tenants'
 date = "2022-09-16T13:00:00"
-description = 'The Right to Counsel for Tenanta -- A Reprint from North Jersey DSA's Red Star Ledger Newsletter!'
+description = 'The Right to Counsel for Tenants -- A Reprint from North Jersey DSAs Red Star Ledger Newsletter!'
 disableComments = true
 +++
 Landlords are removing New Jerseyans from their homes at the highest
