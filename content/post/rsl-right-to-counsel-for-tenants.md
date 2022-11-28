@@ -1,6 +1,6 @@
 +++
 title = 'The Right to Counsel for Tenants'
-author = Rory P
+author = 'Rory P'
 slug = 'right-to-counsel-for-tenants'
 date = "2022-09-16T13:00:00"
 description = 'The Right to Counsel for Tenanta -- A Reprint from North Jersey DSA's Red Star Ledger Newsletter!'
