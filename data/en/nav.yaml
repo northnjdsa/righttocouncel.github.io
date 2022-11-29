@@ -5,3 +5,5 @@ items:
   url: 'take-action'
 - title: 'In the Media'
   url: 'in-the-media'
+- title: Donate
+  url: 'donate'
