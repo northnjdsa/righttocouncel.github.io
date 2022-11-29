@@ -1,7 +1,7 @@
 +++
 title = 'Donate to Right to Counsel JC'
 slug = 'donate'
-image = 'images/donate.png'
+image = 'images/donate.webp'
 disableComments = true
 +++
 Thank you for supporting the Right to Counsel campaign. 
