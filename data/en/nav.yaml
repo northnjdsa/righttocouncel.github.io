@@ -3,7 +3,5 @@ items:
   url: 'about'
 - title: 'Take Action'
   url: 'take-action'
-- title: 'In the Media'
-  url: 'in-the-media'
-- title: Donate
+- title: 'Donate'
   url: 'donate'
