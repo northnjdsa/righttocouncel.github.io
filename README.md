@@ -48,4 +48,3 @@ Different languages can be enabled in `config.toml`. Once the language is enable
 - Add new posts or pages by specifying the language shortcode in the file extension, i.e. `es.md` or `fr.md`
 - Add new partial layouts, such as an intro, navigation bar, footer, via the related language folder in the `data` folder, i.e. `data > es`.
 - Update the contact form by creating a related `.toml` file under `i18n`, copying the base `en.toml` file format.
-
