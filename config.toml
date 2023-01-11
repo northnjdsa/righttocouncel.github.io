@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 # [params]
  # 
   # set below parameter to define a favicon
-favicon = "favicon.ico"
+favicon = "images/favicon.ico"
   # set to change date format
   # dateFormat = "2.1.2006"
 backgroundPath = "images/bg.jpg"
