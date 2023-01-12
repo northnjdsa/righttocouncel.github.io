@@ -2,6 +2,7 @@
 title = 'The Right to Counsel for Tenants'
 author = 'Rory P'
 slug = 'right-to-counsel-for-tenants'
+image - 'image/rtcrally.webp'
 date = "2022-09-16T13:00:00"
 description = 'The Right to Counsel for Tenants -- A Reprint from North Jersey DSAs Red Star Ledger Newsletter!'
 disableComments = true
