@@ -3,7 +3,7 @@ title = 'Patch: Should Tenants In Jersey City Get Free Legal Help To Fight Evict
 author = 'Caren Lissner, Patch.com'
 slug = 'patch-rtc-jc-tenants'
 image = 'images/evictionnotice.jpg'
-date = "2022-07-24T17:35:00"
+date = "2023-01-11T10:29:00"
 description = 'Patch.com covered the Right to Counsel Campaign and our upcoming Town Hall!'
 disableComments = true
 +++
