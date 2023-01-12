@@ -2,6 +2,7 @@
 title = 'Jersey Journal: The right to counsel: A moral imperative for Jersey City'
 author = 'Carlos Rojas'
 slug = 'right-to-counsel-a-moral-imperative'
+image = 'image/hudcocourt.webp'
 date = "2022-07-29T08:00:00"
 description = 'North NJ DSA member Carlos Rojas wrote about Right to Counsel!'
 disableComments = true
