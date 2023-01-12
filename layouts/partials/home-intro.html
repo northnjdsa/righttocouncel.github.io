@@ -1,38 +1,6 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.homepage }}
 
-<div class="container">
-<table>
-<thead>
-  <tr>
-    <th><img src="images/nnjdsa.webp" alt="A red diner with North New Jersey
-Democratic Socialists of America written on it" width=40% height=40%><br><a
-href="https://north.dsanj.org">North New Jersey Democratic Socialists of
-America</a></th>
-    <th><img src="images/aclunj.webp" alt="Logo for the American Civil Liberties
-Union of New Jersey" width=40% height=40%><br><a href="https://aclu-nj.org">American
-Civil Liberties Union of New Jersey"</a></th>
-    <th><img src="images/fshc.webp" alt="Fair Share Housing Center logo. There
-is a drawing of a raised fist in a home" width=40% height=40%><br><a
-href="https://www.fairsharehousing.org/">Fair Share Housing Center</a></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td><img src="images/jcmas.webp" alt="A yellow logo that looks like a
-honeycomb" width=40% height=40%><br><a href="https://www.jcmutualaid.org/">Jersey
-City Mutual Aid Society (JCMAS)</a></td>
-    <td><img src="images/knittygrittyjc.webp" alt="White logo reading Knitty
-Gritty Jersey City" width=40% height=40%><br><a
-href="https://www.facebook.com/TheKnittyGrittyJC/">The Knitty Gritty</a></td>
-    <td><img src="images/mtrnj.webp" alt="Make the Road New Jersey logo"
-width=40% height=40%><br><a href="https://maketheroadnj.org/">Make the Road New
-Jersey</a></td>
-  </tr>
-</tbody>
-</table>
-</div>
-
 <article class="post featured">
     <header class="major">
         {{ if .title }}
@@ -46,6 +14,38 @@ Jersey</a></td>
         {{- end -}}
     </header>
 </article>
+
+<div class="container">
+  <table>
+  <thead>
+    <tr>
+      <th><img src="images/nnjdsa.webp" alt="A red diner with North New Jersey
+Democratic Socialists of America written on it" width=40% height=40%><br><a
+href="https://north.dsanj.org">North New Jersey Democratic Socialists of
+America</a></th>
+      <th><img src="images/aclunj.webp" alt="Logo for the American Civil Liberties
+Union of New Jersey" width=40% height=40%><br><a href="https://aclu-nj.org">American
+Civil Liberties Union of New Jersey</a></th>
+      <th><img src="images/fshc.webp" alt="Fair Share Housing Center logo. There
+is a drawing of a raised fist in a home" width=40% height=40%><br><a
+href="https://www.fairsharehousing.org/">Fair Share Housing Center</a></th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td><img src="images/jcmas.webp" alt="A yellow logo that looks like a
+honeycomb" width=40% height=40%><br><a href="https://www.jcmutualaid.org/">Jersey
+City Mutual Aid Society (JCMAS)</a></td>
+    <td><img src="images/knittygrittyjc.webp" alt="White logo reading Knitty
+Gritty Jersey City" width=40% height=40%><br><a
+href="https://www.facebook.com/TheKnittyGrittyJC/">The Knitty Gritty</a></td>
+    <td><img src="images/mtrnj.webp" alt="Make the Road New Jersey logo"
+width=40% height=40%><br><a href="https://maketheroadnj.org/">Make the Road New
+Jersey</a></td>
+  </tr>
+    </tbody>
+  </table>
+</div>
 
 
 {{- end -}}
