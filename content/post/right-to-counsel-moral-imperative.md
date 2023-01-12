@@ -7,6 +7,11 @@ date = "2022-07-29T08:00:00"
 description = 'North NJ DSA member Carlos Rojas wrote about Right to Counsel!'
 disableComments = true
 +++
+Image courtesy of [King of
+Hearts](https://commons.wikimedia.org/wiki/File:Hudson_County_Courthouse_Jersey_City_August_2020_001.jpg)
+and licensed under a [CC-BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license
+
 Originally published on NJ.com: [The right to counsel: A moral imperative for 
 Jersey City](https://www.nj.com/opinion/2022/07/the-right-to-counsel-a-moral-imperative-for-jersey-city-opinion.html)
 
