@@ -2,6 +2,7 @@
 title = 'Hudson County View: North NJ DSA launches Right to Counsel Campaign'
 author = 'Hudson County View'
 slug = 'hudson-county-view-rtc-rally'
+image = 'images/rtcrally.jpg'
 date = "2022-07-24T17:35:00"
 description = 'Coverage of our launch rally in Jersey City'
 disableComments = true
