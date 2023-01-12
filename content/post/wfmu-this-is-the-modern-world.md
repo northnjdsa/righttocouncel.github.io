@@ -4,7 +4,7 @@ author = 'WFMU'
 slug = 'wfmu-rtc-interview'
 image = 'images/wfmu.png'
 date = "2023-01-12T11:00:00"
-description = 'Right to Counsel JC Member Jake E interviewed WFMU!'
+description = 'Right to Counsel JC Member Jake E interviewed on WFMU!'
 disableComments = true
 +++
 Jake E, organizer for the Right to Counsel Campaign was invited on to
