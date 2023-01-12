@@ -1,7 +1,7 @@
 +++
 title = 'WFMU: Right to Counsel Interview'
 author = 'WFMU'
-slug = 'patch-rtc-jc-tenants'
+slug = 'wfmu-rtc-interview'
 image = 'images/wfmu.png'
 date = "2023-01-12T11:00:00"
 description = 'Right to Counsel JC Member Jake E interviewed WFMU!'

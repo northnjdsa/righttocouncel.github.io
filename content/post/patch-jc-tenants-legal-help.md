@@ -17,6 +17,3 @@ Tenants Town Hall.](https://actionnetwork.org/events/right-to-counsel-town-hall/
 
 [Read "Should Tenants in Jersey City Get Free Legal Help To Fight Evictions?"
 on Patch.com](https://patch.com/new-jersey/hoboken/should-jersey-city-tenants-get-free-legal-help-fight-evictions)
-
-Sign up for the RTC Town Hall, located at Jersey City 
-<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/event/right-to-counsel-town-hall?format=js&source=widget'></script><div id='can-event-area-right-to-counsel-town-hall' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
