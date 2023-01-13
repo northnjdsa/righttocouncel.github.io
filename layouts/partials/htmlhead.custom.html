@@ -1,2 +1,3 @@
 {{ $style := resources.Get "scss/custom.scss" | resources.ExecuteAsTemplate "custom.scss" . | toCSS (dict "targetPath" "assets/css/custom.css" "enableSourceMap" true) }}
 <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+<script defer data-domain="righttocounseljc.org" src="https://plausible.io/js/script.js"></script>
